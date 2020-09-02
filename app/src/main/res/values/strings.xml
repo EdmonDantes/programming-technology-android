@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Chemistry Application</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="last_photo">Last photo</string>
+
+    <!--Api-->
+    <string name="api_error_can_not_read_from_connection">Can not read information from server</string>
+    <string name="api_error_graph_name_can_not_be_empty">Graph name can not be empty</string>
+    <string name="api_error_graph_colors_can_not_be_empty">Graph colors can not be empty</string>
+    <string name="api_error_graph_id_can_not_be_less_one">Graph id can not be less 1</string>
+    <string name="api_error_metrics_can_not_be_empty">Metrics can not be empty</string>
+    <string name="api_error_colors_can_not_be_empty">Colors can not be empty</string>
+    <string name="api_error_dialog_title">Error</string>
+    <string name="api_error_dialog_message">Error with connection</string>
+    <string name="api_error_dialog_ok_button">Ok</string>
+
+    <!--Errors-->
+    <string name="error_message_can_not_open_file">Can not open file</string>
+    <string name="error_message_can_not_read_file">Can not read file</string>
+    <string name="error_have_not_image">Have not image</string>
+    <string name="error_not_yet_chosen_image_area">Not yet chosen image area</string>
+    <string name="toast_chosen_average_color">Chosen average color</string>
+
+    <!--Choose graph activity-->
+    <string name="message_in_choose_graph_activity_floating_button_create_graph_item_title">Create</string>
+    <string name="message_in_choose_graph_activity_menu_create_graph_item_description">Create a new graph from your image</string>
+    <string name="title_in_choose_graph_activity_in_toolbar">Graphs</string>
+    <string name="menu_title_graph_activity_settings">Settings</string>
+
+    <!--Settings-->
+    <string name="toolbar_settings_activity_title">Settings</string>
+    <string name="settings_category_network_settings_title">Network settings</string>
+    <string name="settings_category_network_settings_host_setting_title">Host</string>
+    <string name="settings_category_network_settings_host_setting_summary">Server host name or ip which app will be connect</string>
+    <string name="settings_category_network_settings_port_setting_title">Port</string>
+    <string name="settings_category_network_settings_port_setting_summary">Server port which app will be connect</string>
+
+    <!--Choose metrics activity-->
+    <string name="title_in_choose_metrics_activity_in_toolbar">Metrics</string>
+    <string name="message_in_choose_metric_activity_floating_button_create_graph_item_title">Next</string>
+
+    <!--Get result activity-->
+    <string name="title_in_get_result_activity_in_toolbar">Results</string>
+
+    <!--Create new graph-->
+    <string name="title_in_create_new_graph_activity_edit_text_graph_name_title">Graph name</string>
+    <string name="title_in_create_new_graph_activity_button_create_graph_title">Create</string>
+
+    <!--Add graph value-->
+    <string name="title_in_add_graph_value_activity_edit_text_number_value_title">Number value</string>
+    <string name="title_in_add_graph_value_activity_edit_text_unit_title">Unit</string>
+    <string name="title_in_add_graph_value_activity_button_set_unit_title">Set unit</string>
+    <string name="title_in_add_graph_value_activity_button_set_color">Set color</string>
+    <string name="title_in_add_graph_value_activity_button_set_color_update_state">Update color</string>
+    <string name="title_in_add_graph_value_activity_button_add_graph_value">Add</string>
+
+    <!--Units-->
+    <string name="string_in_units_activity_toolbar_title">Units</string>
+    <string name="string_units_activity_dialog_delete_warning_message">Are you sure? It can will delete graph which use this unit.</string>
+    <string name="string_units_activity_dialog_delete_warning_positive_button_title">Yes</string>
+    <string name="string_units_activity_dialog_delete_warning_negative_button_title">No</string>
+
+    <!--Create new unit-->
+    <string name="string_create_new_unit_activity_toolbar_title">Create unit</string>
+    <string name="string_create_new_unit_activity_edit_text_unit_name_title">Unit name</string>
+    <string name="string_create_new_unit_activity_button_add_high_unit_title">Add high unit</string>
+    <string name="string_create_new_unit_activity_button_add_low_unit_title">Add low unit</string>
+    <string name="string_create_new_unit_activity_edit_scale_high_unit_hind">Scale for high unit</string>
+    <string name="string_create_new_unit_activity_edit_scale_low_unit_hind">Scale for low unit</string>
+    <string name="string_create_new_unit_activity_button_add_unit">Add unit</string>
+    <string name="error_create_new_unit_activity_can_not_get_units_from_server">Can not get units list from server</string>
+</resources>

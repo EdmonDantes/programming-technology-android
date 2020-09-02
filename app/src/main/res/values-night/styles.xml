@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/night_color_primary</item>
+        <item name="colorPrimaryDark">@color/night_color_primary_dark</item>
+        <item name="colorPrimarySurface">@color/night_color_primary_light</item>
+        <item name="colorAccent">@color/night_color_secondary</item>
+        <item name="colorOnPrimary">@color/night_color_on_primary</item>
+        <item name="colorOnPrimarySurface">@color/night_color_on_primary_light</item>
+        <item name="colorOnSecondary">@color/night_color_on_secondary</item>
+    </style>
+    
+</resources>

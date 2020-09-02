@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="day_color_primary">#4caf50</color>
+    <color name="day_color_primary_light">#80e27e</color>
+    <color name="day_color_primary_dark">#087f23</color>
+
+    <color name="day_color_secondary">#3b98a3</color>
+    <color name="day_color_secondary_light">#70c9d4</color>
+    <color name="day_color_secondary_dark">#006a74</color>
+
+    <color name="day_color_on_primary">#000</color>
+    <color name="day_color_on_primary_dark">#fff</color>
+    <color name="day_color_on_primary_light">#000</color>
+
+    <color name="day_color_on_secondary">#000</color>
+    <color name="day_color_on_secondary_dark">#fff</color>
+    <color name="day_color_on_secondary_light">#000</color>
+
+
+    <color name="night_color_primary">#1b5e20</color>
+    <color name="night_color_primary_light">#4c8c4a</color>
+    <color name="night_color_primary_dark">#003300</color>
+
+    <color name="night_color_secondary">#1b5a5e</color>
+    <color name="night_color_secondary_light">#4c878b</color>
+    <color name="night_color_secondary_dark">#003034</color>
+
+    <color name="night_color_on_primary">#fff</color>
+    <color name="night_color_on_primary_dark">#000</color>
+    <color name="night_color_on_primary_light">#fff</color>
+
+    <color name="night_color_on_secondary">#fff</color>
+    <color name="night_color_on_secondary_dark">#000</color>
+    <color name="night_color_on_secondary_light">#fff</color>
+
+</resources>

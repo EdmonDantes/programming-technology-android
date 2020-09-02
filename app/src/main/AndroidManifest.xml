@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="ru.loginov.chemistryapplication">
+
+<!--    Permissions-->
+    <uses-feature android:name="android.hardware.camera" android:required="true" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="18" />
+
+    <application
+        android:name=".ChemistryApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.impl.ChooseGraphActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.impl.ChooseMetricsActivity"/>
+        <activity android:name=".activity.impl.ChooseImageActivity"/>
+        <activity android:name=".activity.impl.ChooseColorsActivity"/>
+        <activity android:name=".activity.impl.GetResultActivity"/>
+        <activity android:name=".activity.impl.CreateNewGraphActivity"/>
+        <activity android:name=".activity.impl.AddGraphValueActivity"/>
+        <activity android:name=".activity.impl.UnitsActivity"/>
+        <activity android:name=".activity.impl.SettingsActivity"/>
+        <activity android:name=".activity.impl.CreateNewUnitActivity"/>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="ru.loginov.chemistryapplication"
+            android:grantUriPermissions="true"
+            android:enabled="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths"/>
+        </provider>
+    </application>
+
+</manifest>
